@@ -5,7 +5,7 @@ body {
 .container {
     max-width: 1024px;
     margin: 0 auto;
-  }
+}
   
 .gallery {
     display: flex;
@@ -58,6 +58,13 @@ main {
     padding-left: 0.5rem;
 }
 
+.top p {
+    margin: 0;
+    font-family: karla;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -70,6 +77,36 @@ footer {
         flex-direction: column;
     }
     .gallery article {
-        width: 100%;
+        width: 93%;
     }
+}
+
+
+.mapContainer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.map {
+    background-color: limegreen;
+    background-image: url("/img/map.png");
+}
+
+.map h2 {
+    color: darkslategrey;
+    font-family: rubik;
+    padding: 2rem;
+    margin: 0;
+}
+
+.map h3 {
+    color: darkslategrey;
+    font-family: karla;
+    padding-left: 2rem;
+}
+
+.map p{
+    color: darkslategrey;
+    font-family: karla;
+    padding: 2rem;
 }
