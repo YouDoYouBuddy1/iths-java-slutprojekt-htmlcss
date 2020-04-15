@@ -89,7 +89,7 @@ footer {
 
 .map {
     background-color: limegreen;
-    background-image: url("/img/map.png");
+    background-image: url("../img/map.png");
 }
 
 .map h2 {
